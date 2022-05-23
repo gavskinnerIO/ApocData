@@ -1,0 +1,58 @@
+{
+  "Cloth": {
+    "Weight": 0.1,
+    "BaseValue": 1
+  },
+  "Leather": {
+    "Weight": 0.2,
+    "BaseValue": 2
+  },
+  "Aluminium": {
+    "Weight": 0.2,
+    "BaseValue": 4
+  },
+  "Plastic": {
+    "Weight": 0.2,
+    "BaseValue": 2
+  },
+  "Glass": {
+    "Weight": 0.2,
+    "BaseValue": 2
+  },
+  "Rubber": {
+    "Weight": 0.2,
+    "BaseValue": 2
+  },
+  "Wood": {
+    "Weight": 0.3,
+    "BaseValue": 1
+  },
+  "Copper": {
+    "Weight": 0.2,
+    "BaseValue": 4
+  },
+  "Steel": {
+    "Weight": 0.3,
+    "BaseValue": 2
+  },
+  "Silver": {
+    "Weight": 0.3,
+    "BaseValue": 7
+  },
+  "Gold": {
+    "Weight": 0.3,
+    "BaseValue": 10
+  },
+  "Iron": {
+    "Weight": 0.4,
+    "BaseValue": 1
+  },
+  "Lead": {
+    "Weight": 0.5,
+    "BaseValue": 1
+  },
+  "Concrete": {
+    "Weight": 0.5,
+    "BaseValue": 1
+  }
+}
