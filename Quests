@@ -1,0 +1,24 @@
+{
+  "Quest_Test_01": {
+    "Name": "Batten Down the Hatches",
+    "OfferText": "I need you to find some wood and fix the barricades around the Town.",
+    "Type": "Use",
+    "Targets": "WoodQuest",
+    "PartyQuest": true,
+    "Rewards": {
+      "Iron": 2,
+      "Steel": 2
+    }
+  },
+  "Quest_Test_02": {
+    "Name": "Blow the Barrels",
+    "OfferText": "I need you to blow up those barrels.",
+    "Type": "Destroy",
+    "Targets": "BoomQuest",
+    "PartyQuest": false,
+    "Rewards": {
+      "Iron": 4,
+      "Steel": 4
+    }
+  }
+}
