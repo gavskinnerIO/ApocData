@@ -1,0 +1,9 @@
+{
+  "Brass": {
+    "Category": "Scrap",
+    "Components": {
+      "Iron": 5,
+      "Steel": 5
+    }
+  }
+}
