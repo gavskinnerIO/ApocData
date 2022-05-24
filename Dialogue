@@ -9,7 +9,11 @@
     "Tree": [
       {
         "Text": "reply 1",
-        "Tree": []
+        "Tree": [
+          {
+            "Text": "reply 3"
+          }
+        ]
       },
       {
         "Text": "reply 2",
