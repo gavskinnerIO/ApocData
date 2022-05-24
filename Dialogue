@@ -1,6 +1,6 @@
 {
   "Dialogue_Test_01": {
-    "Text": "Batten Down the Hatches",
+    "Text": "I need you to find some wood and repair the barricades around town.  I need you to find some wood and repair the barricades around town.",
     "Actions": [
       {
         "one": "two"
@@ -26,6 +26,6 @@
     ]
   },
   "Dialogue_Test_02": {
-    "Text": "Blow the Barrels"
+    "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels. I'm planning to take over this town, you can help me by blowing up the supply barrels."
   }
 }
