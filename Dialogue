@@ -60,6 +60,19 @@
 				}
 			]
 		},
+		"shop": {
+			"Text": "Don't have much I'm afraid, you should try around the corner.",
+			"choices": [
+				{
+					"Text": "Okay, let's talk about something else.",
+					"OnPress": [
+						{
+							"goto": "main_choices"
+						}
+					]
+				}
+			]
+		},
 		"job_list": {
 			"Text": "Yeah, I have a few things I need help with...",
 			"choices": [
