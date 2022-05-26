@@ -15,7 +15,12 @@
       ]
     },
     "Intro_Stranger": {
-      "Text": "I haven't seen you around town before...just rolled in?"
+      "Text": "I haven't seen you around town before...just rolled in?",
+      "OnOpen": [
+        {
+          "AddTag": "MetJoeB"
+        }
+      ]
     },
     "Intro_HaveMet": {
       "Text": "You again, you still hanging around town?"
