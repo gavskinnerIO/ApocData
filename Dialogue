@@ -1,61 +1,77 @@
 {
-  "Dialogue_Test_01": {
-    "root": {
-      "Text": "",
-      "OnOpen": [
-        {
-          "goto": "Intro_HaveMet",
-          "condition": {
-            "HasTag": "MetJoeB"
-          }
-        },
-        {
-          "goto": "Intro_Stranger"
-        }
-      ]
-    },
-    "Intro_Stranger": {
-      "Text": "I haven't seen you around town before...just rolled in?",
-      "OnOpen": [
-        {
-          "AddTag": "MetJoeB"
-        },
-        {
-          "goto": "main_choices"
-        }
-      ]
-    },
-    "Intro_HaveMet": {
-      "Text": "You again, you still hanging around town?",
-      "OnOpen": [
-        {
-          "goto": "main_choices"
-        }
-      ]
-    },
-    "main_choices": {
-      "choices": [
-        {
-          "Text": "Do you have any jobs?",
-          "condition": {
-            "HasTag": "TrustedByJoeB"
-          }
-        },
-        {
-          "Text": "Thanks for your help, goodbye!"
-        }
-      ]
-    }
-  },
-  "Dialogue_Test_02": {
-    "root": {
-      "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
-      "OnOpen": [
-        {
-          "AddTag": "TrustedByJoeB"
-        }
-      ]
-    },
-    "intro": {}
-  }
+	"Dialogue_Test_01": {
+		"root": {
+			"Text": "",
+			"OnOpen": [
+				{
+					"goto": "Intro_HaveMet",
+					"condition": {
+						"HasTag": "MetJoeB"
+					}
+				},
+				{
+					"goto": "Intro_Stranger"
+				}
+			]
+		},
+		"Intro_Stranger": {
+			"Text": "I haven't seen you around town before...just rolled in?",
+			"OnOpen": [
+				{
+					"AddTag": "MetJoeB"
+				},
+				{
+					"goto": "main_choices"
+				}
+			]
+		},
+		"Intro_HaveMet": {
+			"Text": "You again, you still hanging around town?",
+			"OnOpen": [
+				{
+					"goto": "main_choices"
+				}
+			]
+		},
+		"main_choices": {
+			"choices": [
+				{
+					"Text": "Do you have any jobs?",
+					"condition": {
+						"HasTag": "TrustedByJoeB"
+					},
+					"OnPress": [
+						{
+							"goto": "job_list"
+						}
+					]
+				},
+				{
+					"Text": "Thanks for your help, goodbye!"
+				}
+			]
+		},
+		"job_list": {
+			"Text": "Yeah, I have a few things I need help with...",
+			"choices": [
+				{
+					"Text": "Tell me about: The Barricades Around Town."
+				},
+				{
+					"Text": "Tell me about: Blowing up the Supply Barrels."
+				}
+			]
+		}
+	},
+	"Dialogue_Test_02": {
+		"root": {
+			"Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
+			"OnOpen": [
+				{
+					"AddTag": "TrustedByJoeB"
+				}
+			]
+		},
+		"intro": {}
+	}
 }
