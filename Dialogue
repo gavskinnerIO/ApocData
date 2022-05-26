@@ -1,15 +1,30 @@
 {
   "Dialogue_Test_01": {
     "root": {
-      "Text": "I need you to find some wood and repair the barricades around town.",
-      "enter": {}
+      "Text": "",
+      "OnOpen": [
+        {
+          "goto": "Intro_HaveMet",
+          "conditions": [
+            {}
+          ]
+        },
+        {
+          "goto": "Intro_Stranger"
+        }
+      ]
     },
-    "intro": {}
+    "Intro_Stranger": {
+      "Text": "I haven't seen you around town before...just rolled in?"
+    },
+    "Intro_HaveMet": {
+      "Text": "You again, you still hanging around town?"
+    }
   },
   "Dialogue_Test_02": {
     "root": {
       "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
-      "enter": {}
+      "entry": {}
     },
     "intro": {}
   }
