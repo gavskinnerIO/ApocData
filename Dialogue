@@ -47,7 +47,16 @@
 					]
 				},
 				{
-					"Text": "Thanks for your help, goodbye!"
+					"Text": "Show me what you have to sell?",
+					"OnPress": [
+						{
+							"goto": "job_list"
+						}
+					]
+				},
+				{
+					"Text": "Thanks for your help, goodbye!",
+					"Event": "EndDialogue"
 				}
 			]
 		},
@@ -59,6 +68,18 @@
 				},
 				{
 					"Text": "Tell me about: Blowing up the Supply Barrels."
+				},
+				{
+					"Text": "Let's talk about something else.",
+					"OnPress": [
+						{
+							"goto": "main_choices"
+						}
+					]
+				},
+				{
+					"Text": "Nothing of interest there for me, goodbye!",
+					"Event": "EndDialogue"
 				}
 			]
 		}
