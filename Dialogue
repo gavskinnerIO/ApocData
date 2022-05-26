@@ -1,14 +1,14 @@
 {
   "Dialogue_Test_01": {
     "root": {
-      "Text": "I need you to find some wood and repair the barricades around town.  I need you to find some wood and repair the barricades around town.",
+      "Text": "I need you to find some wood and repair the barricades around town.",
       "enter": {}
     },
     "intro": {}
   },
   "Dialogue_Test_02": {
     "root": {
-      "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels. I'm planning to take over this town, you can help me by blowing up the supply barrels.",
+      "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
       "enter": {}
     },
     "intro": {}
