@@ -1,31 +1,16 @@
 {
   "Dialogue_Test_01": {
-    "Text": "I need you to find some wood and repair the barricades around town.  I need you to find some wood and repair the barricades around town.",
-    "Actions": [
-      {
-        "one": "two"
-      }
-    ],
-    "Tree": [
-      {
-        "Text": "reply 1",
-        "Tree": [
-          {
-            "Text": "reply 3"
-          }
-        ]
-      },
-      {
-        "Text": "reply 2",
-        "Actions": [
-          {
-            "AddQuest": "Quest_Test_01"
-          }
-        ]
-      }
-    ]
+    "root": {
+      "Text": "I need you to find some wood and repair the barricades around town.  I need you to find some wood and repair the barricades around town.",
+      "enter": {}
+    },
+    "intro": {}
   },
   "Dialogue_Test_02": {
-    "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels. I'm planning to take over this town, you can help me by blowing up the supply barrels."
+    "root": {
+      "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels. I'm planning to take over this town, you can help me by blowing up the supply barrels.",
+      "enter": {}
+    },
+    "intro": {}
   }
 }
