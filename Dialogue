@@ -5,9 +5,9 @@
       "OnOpen": [
         {
           "goto": "Intro_HaveMet",
-          "condition": [
-            {}
-          ]
+          "condition": {
+            "HasTag": "MetJoeB"
+          }
         },
         {
           "goto": "Intro_Stranger"
