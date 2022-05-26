@@ -5,7 +5,7 @@
       "OnOpen": [
         {
           "goto": "Intro_HaveMet",
-          "conditions": [
+          "condition": [
             {}
           ]
         },
