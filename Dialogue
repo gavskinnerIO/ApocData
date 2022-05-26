@@ -19,11 +19,19 @@
       "OnOpen": [
         {
           "AddTag": "MetJoeB"
+        },
+        {
+          "goto": "main_choices"
         }
       ]
     },
     "Intro_HaveMet": {
-      "Text": "You again, you still hanging around town?"
+      "Text": "You again, you still hanging around town?",
+      "OnOpen": [
+        {
+          "goto": "main_choices"
+        }
+      ]
     },
     "main_choices": {
       "choices": [
