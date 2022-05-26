@@ -50,7 +50,7 @@
 					"Text": "Show me what you have to sell?",
 					"OnPress": [
 						{
-							"goto": "job_list"
+							"goto": "shop"
 						}
 					]
 				},
