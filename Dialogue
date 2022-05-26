@@ -24,12 +24,29 @@
     },
     "Intro_HaveMet": {
       "Text": "You again, you still hanging around town?"
+    },
+    "main_choices": {
+      "choices": [
+        {
+          "Text": "Do you have any jobs?",
+          "condition": {
+            "HasTag": "TrustedByJoeB"
+          }
+        },
+        {
+          "Text": "Thanks for your help, goodbye!"
+        }
+      ]
     }
   },
   "Dialogue_Test_02": {
     "root": {
       "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
-      "entry": {}
+      "OnOpen": [
+        {
+          "AddTag": "TrustedByJoeB"
+        }
+      ]
     },
     "intro": {}
   }
