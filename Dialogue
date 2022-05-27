@@ -77,10 +77,20 @@
 			"Text": "Yeah, I have a few things I need help with...",
 			"choices": [
 				{
-					"Text": "Tell me about: The Barricades Around Town."
+					"Text": "Tell me about: The Barricades Around Town.",
+					"OnPress": [
+						{
+							"OfferQuest": "Quest_Test_01"
+						}
+					]
 				},
 				{
-					"Text": "Tell me about: Blowing up the Supply Barrels."
+					"Text": "Tell me about: Blowing up the Supply Barrels.",
+					"OnPress": [
+						{
+							"OfferQuest": "Quest_Test_02"
+						}
+					]
 				},
 				{
 					"Text": "Let's talk about something else.",
