@@ -7,7 +7,9 @@
     "PartyQuest": true,
     "Rewards": {
       "Iron": 2,
-      "Steel": 2
+      "Scrap": 5,
+      "Neuralizer": 5,
+      "Nanites": 5
     }
   },
   "Quest_Test_02": {
@@ -17,8 +19,10 @@
     "Targets": "BoomQuest",
     "PartyQuest": false,
     "Rewards": {
-      "Iron": 4,
-      "Steel": 4
+      "Flux Capacitor": 5,
+      "Steel": 2,
+      "MacGuffins": 5,
+      "Wood": 5
     }
   }
 }
