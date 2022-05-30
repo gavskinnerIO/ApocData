@@ -1,121 +1,127 @@
 {
-	"Dialogue_Test_01": {
-		"root": {
-			"Text": "",
-			"OnOpen": [
-				{
-					"goto": "Intro_HaveMet",
-					"condition": {
-						"HasTag": "MetJoeB"
-					}
-				},
-				{
-					"goto": "Intro_Stranger"
-				}
-			]
-		},
-		"Intro_Stranger": {
-			"Text": "I haven't seen you around town before...just rolled in?",
-			"OnOpen": [
-				{
-					"AddTag": "MetJoeB"
-				},
-				{
-					"goto": "main_choices"
-				}
-			]
-		},
-		"Intro_HaveMet": {
-			"Text": "You again, you still hanging around town?",
-			"OnOpen": [
-				{
-					"goto": "main_choices"
-				}
-			]
-		},
-		"main_choices": {
-			"choices": [
-				{
-					"Text": "Do you have any jobs?",
-					"condition": {
-						"HasTag": "TrustedByJoeB"
-					},
-					"OnPress": [
-						{
-							"goto": "job_list"
-						}
-					]
-				},
-				{
-					"Text": "Show me what you have to sell?",
-					"OnPress": [
-						{
-							"goto": "shop"
-						}
-					]
-				},
-				{
-					"Text": "Thanks for your help, goodbye!",
-					"Event": "EndDialogue"
-				}
-			]
-		},
-		"shop": {
-			"Text": "Don't have much I'm afraid, you should try around the corner.",
-			"choices": [
-				{
-					"Text": "Okay, let's talk about something else.",
-					"OnPress": [
-						{
-							"goto": "main_choices"
-						}
-					]
-				}
-			]
-		},
-		"job_list": {
-			"Text": "Yeah, I have a few things I need help with...",
-			"choices": [
-				{
-					"Text": "Tell me about: The Barricades Around Town.",
-					"OnPress": [
-						{
-							"OfferQuest": "Quest_Test_01"
-						}
-					]
-				},
-				{
-					"Text": "Tell me about: Blowing up the Supply Barrels.",
-					"OnPress": [
-						{
-							"OfferQuest": "Quest_Test_02"
-						}
-					]
-				},
-				{
-					"Text": "Let's talk about something else.",
-					"OnPress": [
-						{
-							"goto": "main_choices"
-						}
-					]
-				},
-				{
-					"Text": "Nothing of interest there for me, goodbye!",
-					"Event": "EndDialogue"
-				}
-			]
-		}
-	},
-	"Dialogue_Test_02": {
-		"root": {
-			"Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
-			"OnOpen": [
-				{
-					"AddTag": "TrustedByJoeB"
-				}
-			]
-		},
-		"intro": {}
-	}
+  "Dialogue_Test_01": {
+    "root": {
+      "Text": "",
+      "OnOpen": [
+        {
+          "goto": "Intro_HaveMet",
+          "condition": {
+            "HasTag": "MetJoeB"
+          }
+        },
+        {
+          "goto": "Intro_Stranger"
+        }
+      ]
+    },
+    "Intro_Stranger": {
+      "Text": "I haven't seen you around town before...just rolled in?",
+      "OnOpen": [
+        {
+          "AddTag": "MetJoeB"
+        },
+        {
+          "goto": "main_choices"
+        }
+      ]
+    },
+    "Intro_HaveMet": {
+      "Text": "You again, you still hanging around town?",
+      "OnOpen": [
+        {
+          "goto": "main_choices"
+        }
+      ]
+    },
+    "main_choices": {
+      "choices": [
+        {
+          "Text": "Do you have any jobs?",
+          "condition": {
+            "HasTag": "TrustedByJoeB"
+          },
+          "OnPress": [
+            {
+              "goto": "job_list"
+            }
+          ]
+        },
+        {
+          "Text": "Show me what you have to sell?",
+          "OnPress": [
+            {
+              "goto": "shop"
+            }
+          ]
+        },
+        {
+          "Text": "Thanks for your help, goodbye!",
+          "Event": "EndDialogue"
+        }
+      ]
+    },
+    "shop": {
+      "Text": "Don't have much I'm afraid, you should try around the corner.",
+      "choices": [
+        {
+          "Text": "Okay, let's talk about something else.",
+          "OnPress": [
+            {
+              "goto": "main_choices"
+            }
+          ]
+        }
+      ]
+    },
+    "job_list": {
+      "Text": "Yeah, I have a few things I need help with...",
+      "choices": [
+        {
+          "Text": "Tell me about: The Barricades Around Town.",
+          "condition": {
+            "NotActiveQuest": "Quest_Test_01"
+          },
+          "OnPress": [
+            {
+              "OfferQuest": "Quest_Test_01"
+            }
+          ]
+        },
+        {
+          "Text": "Tell me about: Blowing up the Supply Barrels.",
+          "condition": {
+            "NotActiveQuest": "Quest_Test_02"
+          },
+          "OnPress": [
+            {
+              "OfferQuest": "Quest_Test_02"
+            }
+          ]
+        },
+        {
+          "Text": "Let's talk about something else.",
+          "OnPress": [
+            {
+              "goto": "main_choices"
+            }
+          ]
+        },
+        {
+          "Text": "Nothing of interest there for me, goodbye!",
+          "Event": "EndDialogue"
+        }
+      ]
+    }
+  },
+  "Dialogue_Test_02": {
+    "root": {
+      "Text": "I'm planning to take over this town, you can help me by blowing up the supply barrels.",
+      "OnOpen": [
+        {
+          "AddTag": "TrustedByJoeB"
+        }
+      ]
+    },
+    "intro": {}
+  }
 }
