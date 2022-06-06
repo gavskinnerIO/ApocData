@@ -37,9 +37,6 @@
       "choices": [
         {
           "Text": "Do you have any jobs?",
-          "condition": {
-            "HasTag": "TrustedByJoeB"
-          },
           "OnPress": [
             {
               "goto": "job_list"
@@ -79,7 +76,9 @@
         {
           "Text": "Tell me about: The Barricades Around Town.",
           "condition": {
-            "NotActiveQuest": "Quest_Test_01"
+            "NotActiveQuest": "Quest_Test_01",
+            "HasTag": "TrustedByJoeB"
+          },
           },
           "OnPress": [
             {
@@ -90,11 +89,23 @@
         {
           "Text": "Tell me about: Blowing up the Supply Barrels.",
           "condition": {
-            "NotActiveQuest": "Quest_Test_02"
+            "NotActiveQuest": "Quest_Test_02",
+            "HasTag": "TrustedByJoeB"
           },
           "OnPress": [
             {
               "OfferQuest": "Quest_Test_02"
+            }
+          ]
+        },
+        {
+          "Text": "Tell me about: Bringing me some Zombie Guts.",
+          "condition": {
+            "NotActiveQuest": "Quest_Test_03"
+          },
+          "OnPress": [
+            {
+              "OfferQuest": "Quest_Test_03"
             }
           ]
         },
