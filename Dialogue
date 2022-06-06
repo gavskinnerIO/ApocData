@@ -79,7 +79,6 @@
             "NotActiveQuest": "Quest_Test_01",
             "HasTag": "TrustedByJoeB"
           },
-          },
           "OnPress": [
             {
               "OfferQuest": "Quest_Test_01"
