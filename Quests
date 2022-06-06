@@ -24,5 +24,17 @@
       "MacGuffins": 5,
       "Wood": 5
     }
+  },
+  "Quest_Test_03": {
+    "Name": "Get me the Guts",
+    "OfferText": "I need you to bring me some Zombie Guts.",
+    "Type": "Aquire",
+    "Targets": "Zombie Guts",
+    "Quantity":"30",
+    "PartyQuest": false,
+    "Rewards": {
+      "Bottle Caps": 50,
+      "Wood": 15
+    }
   }
 }
