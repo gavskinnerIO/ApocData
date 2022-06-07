@@ -96,17 +96,6 @@
           ]
         },
         {
-          "Text": "Tell me about: Bringing the some Zombie Guts.",
-          "condition": {
-            "NotActiveQuest": "Quest_Test_03"
-          },
-          "OnPress": [
-            {
-              "OfferQuest": "Quest_Test_03"
-            }
-          ]
-        },
-        {
           "Text": "Let's talk about something else.",
           "OnPress": [
             {
