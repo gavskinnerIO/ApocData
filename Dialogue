@@ -76,8 +76,7 @@
         {
           "Text": "Tell me about: The Barricades Around Town.",
           "condition": {
-            "NotActiveQuest": "Quest_Test_01",
-            "HasTag": "TrustedByJoeB"
+            "NotActiveQuest": "Quest_Test_01"
           },
           "OnPress": [
             {
@@ -88,8 +87,7 @@
         {
           "Text": "Tell me about: Blowing up the Supply Barrels.",
           "condition": {
-            "NotActiveQuest": "Quest_Test_02",
-            "HasTag": "TrustedByJoeB"
+            "NotActiveQuest": "Quest_Test_02"
           },
           "OnPress": [
             {
@@ -98,7 +96,7 @@
           ]
         },
         {
-          "Text": "Tell me about: Bringing me some Zombie Guts.",
+          "Text": "Tell me about: Bringing the some Zombie Guts.",
           "condition": {
             "NotActiveQuest": "Quest_Test_03"
           },
