@@ -61,13 +61,16 @@
       "Text": "Don't have much I'm afraid, you should try around the corner.",
       "OnOpen": [
         {
-          "Shop": "default"
+          "OpenShop": "default"
         }
       ],
       "choices": [
         {
           "Text": "Okay, let's talk about something else.",
           "OnPress": [
+            {
+              "CloseShop"
+            },
             {
               "goto": "main_choices"
             }
