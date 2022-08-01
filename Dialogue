@@ -76,7 +76,8 @@
         {
           "Text": "Tell me about: The Barricades Around Town.",
           "condition": {
-            "NotActiveQuest": "Quest_Test_01"
+            "NotActiveQuest": "Quest_Test_01",
+            "IsPartyLeader": "true"
           },
           "OnPress": [
             {
