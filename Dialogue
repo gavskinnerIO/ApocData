@@ -69,7 +69,7 @@
           "Text": "Okay, let's talk about something else.",
           "OnPress": [
             {
-              "CloseShop"
+              "CloseShop": ""
             },
             {
               "goto": "main_choices"
