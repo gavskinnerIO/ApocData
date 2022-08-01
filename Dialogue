@@ -59,6 +59,11 @@
     },
     "shop": {
       "Text": "Don't have much I'm afraid, you should try around the corner.",
+      "OnOpen": [
+        {
+          "Shop": "default"
+        }
+      ]
       "choices": [
         {
           "Text": "Okay, let's talk about something else.",
