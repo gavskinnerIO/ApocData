@@ -49,5 +49,18 @@
       "Neuralizer": 5,
       "Nanites": 5
     }
+  },
+  "Quest_Test_05": {
+    "Name": "Batten Down the Hatches",
+    "OfferText": "You have the wood, now find and fix the barricades.",
+    "Type": "Use",
+    "Targets": "BarricadeQuest",
+    "PartyQuest": true,
+    "Rewards": {
+      "Iron": 2,
+      "Scrap": 5,
+      "Neuralizer": 5,
+      "Nanites": 5
+    }
   }
 }
