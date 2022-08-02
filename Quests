@@ -38,7 +38,7 @@
     }
   },
   "Quest_Test_04": {
-    "Name": "Destory the Rift",
+    "Name": "Destroy the Rift",
     "OfferText": "I need you to destroy the crystals powering the rift.",
     "Type": "Destroy",
     "Targets": "RiftCrystal",
