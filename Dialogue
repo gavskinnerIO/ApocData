@@ -86,7 +86,7 @@
           "condition": {
             "and": [
               { "NotActiveQuest": "Quest_Test_04" },
-              { "CompletedQuest": "Quest_Test_02" },
+              { "CompletedQuest": "Quest_Test_05" },
               { "IsPartyLeader": "true" }
             ]
           },
