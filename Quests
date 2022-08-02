@@ -36,5 +36,18 @@
       "Bottle Caps": 50,
       "Wood": 15
     }
+  },
+  "Quest_Test_04": {
+    "Name": "Destory the Rift",
+    "OfferText": "I need you to destroy the crystals powering the rift.",
+    "Type": "Destroy",
+    "Targets": "RiftCrystal",
+    "PartyQuest": true,
+    "Rewards": {
+      "Iron": 2,
+      "Scrap": 5,
+      "Neuralizer": 5,
+      "Nanites": 5
+    }
   }
 }
