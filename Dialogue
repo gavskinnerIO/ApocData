@@ -82,6 +82,36 @@
       "Text": "Yeah, I have a few things I need help with...",
       "choices": [
         {
+          "Text": "Tell me about: The Rift and Crystals.",
+          "condition": {
+            "and": [
+              { "NotActiveQuest": "Quest_Test_04" },
+              { "CompletedQuest": "Quest_Test_02" },
+              { "IsPartyLeader": "true" }
+            ]
+          },
+          "OnPress": [
+            {
+              "OfferQuest": "Quest_Test_04"
+            }
+          ]
+        },
+        {
+          "Text": "Tell me about: The Barricades Around Town.",
+          "condition": {
+            "and": [
+              { "NotActiveQuest": "Quest_Test_05" },
+              { "CompletedQuest": "Quest_Test_01" },
+              { "IsPartyLeader": "true" }
+            ]
+          },
+          "OnPress": [
+            {
+              "OfferQuest": "Quest_Test_05"
+            }
+          ]
+        },
+        {
           "Text": "Tell me about: The Barricades Around Town.",
           "condition": {
             "and": [
